@@ -250,7 +250,7 @@ footer {
         gap: 30px;
     }
     video{
-        width: 492px;
+        width: 460px;
     }
     #s5 {
         display: block;
@@ -260,7 +260,7 @@ footer {
         display: block;
     }
     .ga img{
-        width: 430px;
+        width: 400px;
         height: 280px;
         padding: 5px;
     }
@@ -268,7 +268,7 @@ footer {
         width: 200px;
     }
     #pic img{
-        width: 200px;
+        width: 150px;
     }
     .i3{
         height: 160px;
@@ -282,11 +282,11 @@ footer {
     }
     .box2{
         display: block;
-        width: 600px;
+        width: 500px;
         height: 950px;
     }
     nav{
-        width: 500px;
+        width: 450px;
     }
     a img{
         height: 350px;
