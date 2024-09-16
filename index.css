@@ -1,0 +1,325 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(43, 48, 53);
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: white;
+    color: black;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.toggle-dark-mode {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.toggle-dark-mode:hover {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+}
+
+video {
+    block-size: 100vh;
+    object-fit: cover;
+    width: 1519px;
+}
+
+.title{
+    position: absolute;
+    text-align: center;
+    left: 200px;
+    bottom: 70px;
+}
+
+.t1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.t12 {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+#s2 {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    padding: 8% 3% 0% 5%;
+}
+
+.car img {
+    width: 400px;
+    height: 340px;
+}
+
+.tit {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    font-size: x-large;
+    gap: 15px;
+    width: 400px;
+}
+
+.text {
+    font-size: x-large;
+    letter-spacing: 4px;
+    padding: 7%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#s5 {
+    padding: 7%;
+    font-size: large;
+    letter-spacing: 2px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.left {
+    padding: 20px;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+}
+
+.right img {
+    width: 350px;
+}
+
+.i3 {
+    height: 280px;
+}
+
+#s6 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 9%;
+}
+.ga{
+    overflow: hidden; 
+    width: 600px;    
+    height: 400px;    
+    position: relative;
+}
+
+.ga img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease; 
+    object-fit: cover; 
+}
+.ga img:hover{
+    transform: scale(1.5);
+}
+
+.te {
+    font-size: x-large;
+    padding: 40px;
+}
+
+#s7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: x-large;
+    gap: 15px;
+    color: white;
+    padding: 3%;
+}
+
+.box2{
+    background-image: url("ExploreLink_Desktop.webp");
+    height: 655px;
+    background-size: cover;
+    display: flex;
+    gap: 8%;
+    padding: 166px;
+}
+
+#for{
+    width: 300px;
+}
+
+#last{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #198754;
+    padding: 15px;
+}
+
+#last:hover{
+    background-color: #198754;
+}
+.t7 {
+    font-size: xxx-large;
+    text-align: center;
+    align-content: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.contact {
+    padding: 3%;
+}
+
+#s4 {
+    margin: 5px auto;
+    padding-block-start: 9%;
+}
+
+.carousel-inner {
+    height: 600px;
+}
+
+.caption:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.579);
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-content a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 2px 0;
+}
+
+@media screen and (max-width: 700px) {
+    #s2 {
+        gap: 30px;
+    }
+    video{
+        width: 492px;
+    }
+    #s5 {
+        display: block;
+    }
+
+    #s6 {
+        display: block;
+    }
+    .ga img{
+        width: 430px;
+        height: 280px;
+        padding: 5px;
+    }
+    .right{
+        width: 200px;
+    }
+    #pic img{
+        width: 200px;
+    }
+    .i3{
+        height: 160px;
+    }
+    #s2{
+        flex-direction: column;
+    }
+    .title{
+        position: absolute;
+        left: 5px;
+    }
+    .box2{
+        display: block;
+        width: 600px;
+        height: 950px;
+    }
+    nav{
+        width: 500px;
+    }
+    a img{
+        height: 350px;
+    }
+
+}
+
+#pic {
+    position: relative;
+    transition: 1s;
+}
+
+#pic::after {
+    font-size: x-large;
+    content: 'MCLAREN';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#pic:hover::after {
+    background-color: #262626c6;
+    color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+}
+
+
